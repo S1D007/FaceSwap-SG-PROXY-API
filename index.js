@@ -57,7 +57,7 @@ app.post('/', upload.fields([
                 const SG_IMAGE_DATA = new FormData();
                 SG_IMAGE_DATA.append('image_url', result.secure_url);
                 SG_IMAGE_DATA.append('fix_face_only', '1');
-                SG_IMAGE_DATA.append('type', 'face');
+                SG_IMAGE_DATA.append('type', 'clean');
                 SG_IMAGE_DATA.append('scale_factor', '4');
                 SG_IMAGE_DATA.append('return_type', '1');
                 SG_IMAGE_DATA.append('sync', '1');
