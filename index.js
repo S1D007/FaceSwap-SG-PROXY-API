@@ -65,7 +65,7 @@ app.post('/', upload.fields([
                 // Send enhanced image request
                 const EnhancedImage = await axios.post('https://techhk.aoscdn.com/api/tasks/visual/scale', SG_IMAGE_DATA, {
                     headers: {
-                        'x-api-key': 'wxcu8h5p89lphwlg6',
+                        'x-api-key': 'wxmb6cu0uhx1z170w',
                         ...SG_IMAGE_DATA.getHeaders() // Include headers from FormData
                     }
                 });
